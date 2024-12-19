@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .landing{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:rgb(74, 67, 101) ;
+            padding: 10px 20px;
+            position: fixed;
+            width:100%;
+            top:0;
+            z-index: 1000;
+        }
+        .landing.logo{
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+         }
+         .nav-link{
+            list-style: none;
+            display: flex;
+            gap: 20px
+         }
+         .card{
+            background:url("./land.jpg") ;
+            width: ;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="landing">
+                <div class="logo">nature</div>
+                <ul class="nav-link">
+                    <li><a href="#place">place</a></li>
+                    <li><a href="#location">location</a></li>
+                    <li><a href="#view">view</a></li>
+                </ul>
+        </nav>
+    </header>
+    <section id="place">
+        <h1>explore the nature</h1>
+        <p></p>
+        <button>know more</button>
+    </section>
+    <section id="location">
+        <h2>locations</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>location</h3>
+                <p>nbnfmdqwls</p>
+                <button  class="card-btn">enjoy the  nature</button>
+            </div>
+            <div class="card">
+                <img src="./land.html" alt="">
+                <h3>view  the location</h3>
+                <p>bndfmvdvsewife</p>
+                <button class="card-btn">nice location</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
